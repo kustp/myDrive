@@ -1,5 +1,5 @@
 import mongoose, {Document} from "mongoose";
-import validator from "validator";
+import * as validator from 'validator';
 import crypto from "crypto";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";

@@ -90,7 +90,8 @@ module.exports = (env) => {
                 fonts: [
                     { family: "Roboto", variants: ["100", "300", "400", "500", "700"], display: "swap" }
                 ],
-                outputDir: "/dist/",
+                outputDir: "/dist/", 
+                    apiUrl: "https://gwfh.mranftl.com/api/fonts"
                 /* ...options */
             })
         ],
